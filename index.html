@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Leads App</title>
+</head>
+<body id="bodyTag">
+    <nav>
+        <span>
+            <button id="modeBtn" value="Dark Mode" onclick="toggleMode()">Dark Mode</button>
+        </span>
+    </nav>
+    <header>
+        <div class="headerContainer">
+           <h1> Welcome to Leads app</h1> 
+           <h3>Save your leads here and even if you forgot we will remember!</h3>
+        </div>
+    </header>
+    <main>
+       <div class="mainContainer">
+            <fieldset>
+                <legend>
+                    <label id="labelHead" for="leads">Enter your Leads here : </label>
+                </legend>
+                <input type="input" type="text" id="leads" placeholder="www.google.com"/>
+            </fieldset>
+            <br><br>
+            <button id="save" onclick="saveLead()">Save</button>
+            <button id="delete" onclick="deleteLead()">Delete</button>
+            <button id="getLeads" onclick="getAllLead()">Get All Leads</button>
+            <button id="deleteLeads" onclick="deleteAllLead()">Delete All Leads</button>
+            
+            <div class="container2">
+                <div id="savedLeads" class="lead-item">
+                    <p><strong>Saved leads :</strong></p>
+                    <ol id="ul-el">
+                        
+                    </ol>
+                </div>
+                <div id="localStorageLeads" class="lead-item">
+                    <p><strong>local Storage leads :</strong></p>
+                    <ol id="ls-el">
+
+                    </ol>
+                </div>
+            </div>
+       </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
