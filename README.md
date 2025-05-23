@@ -1,8 +1,11 @@
-LeadJS – Smart Note/Lead Organizer
+#LeadJS – Smart Note/Lead Organizer  
+
 Welcome to LeadJS, your minimalistic note organizer powered by JavaScript and browser storage. Designed for simplicity, speed, and productivity, LeadJS lets you quickly take, save, and manage your notes – all without the need for an account or backend.
 
-🚀 Live Demo
-👉 Latest Version(v2) (LeadJS): https://leadjs.netlify.app/
+🚀 Live Demo :  
+
+👉 Latest Version(v2) (LeadJS): https://leadjs.netlify.app/  
+
 👉 v1 (LocalStorageNote): https://localstoragenote.netlify.app/
 
 ✨ Features
